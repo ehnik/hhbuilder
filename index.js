@@ -1,4 +1,3 @@
-// your code goes here ...
 window.addEventListener("load", function() {
 
 var submitButton, addButton, form, householdData, householdElem, memberIndex, removeButton;
@@ -89,7 +88,7 @@ addButton.addEventListener("click", function(event){
   }
 
   submitButton.addEventListener("click", function(event){
-    
+
     event.preventDefault(event); //prevents form from redirecting page and losing household data
 
     var jsonHousehold, debug, XHR;
