@@ -1,0 +1,7 @@
+I ran this directory on a local PHP development server 
+(i.e. php -S localhost:8000 on the command line).
+
+The submit button sends the JSON serialized household data
+via a POST request to a fake server file.
+
+Thank you for your consideration!
